@@ -37,3 +37,4 @@ std::string CheckIP(){
     freeifaddrs(interfaces);
     return ipAddress;
 }
+
