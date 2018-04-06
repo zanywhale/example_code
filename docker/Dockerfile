@@ -6,6 +6,7 @@ MAINTAINER zanywhale@kaist.ac.kr
 WORKDIR /home/
 
 ## Setup some package
+### In korea...
 RUN sed -i 's/security.ubuntu.com/ftp.daumkakao.com/g' /etc/apt/sources.list
 RUN sed -i 's/archive.ubuntu.com/ftp.daumkakao.com/g' /etc/apt/sources.list
 RUN apt-get update
