@@ -1,2 +1,10 @@
 # example_code
-example source code in c++
+
+Example source code and...
+
+ - C++ Source
+ - Dockerfile
+ - CMakeList.txt
+
+Just for reference!
+
