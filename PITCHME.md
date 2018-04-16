@@ -22,7 +22,7 @@
 ## Scenario
 
 - Logic error |
-- Control-flow hijack(Command injection) |
+- Control-flow hijack (Command injection) |
 - Privacy breach |
 
 - In a broad sense, command injection is control-flow hijack |
