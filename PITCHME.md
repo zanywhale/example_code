@@ -127,9 +127,9 @@ Next step is Privacy breach
 
 ## Privacy breach
 
----?code=assets/privacy.cpp&lang=c++&title=pgpgmanaer.cpp
+---?code=assets/privacy.cpp&lang=c++&title=pgpmanager.cpp
 
-@[3,4](Make a file)
+@[3,4,7](Make a file)
 @[17,19](Delete a file)
 @[7,8,17,18,19](There is a term)
 
@@ -173,6 +173,8 @@ but not to terminate abnormally (or crash).
 -> Send thread is operate incorrectly,
    but not to terminate abnormally!
 ```
+
+---
 
 ## Appendix2
 
