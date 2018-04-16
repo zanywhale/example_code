@@ -49,6 +49,9 @@ else if( (tmp_id.compare("1") == 0) && (tmp2_bullian.compare("1") == 0)){
 }
 else{ // not my message
         s_mutex.lock();
+        // Queue.push / it is handling on send thread
         qSendMsg.push(tmp_content);
         s_mutex.unlock();
 }
+# General : id(1) && bullian(0)
+# Abnormal: id(321) && bullian(192) ...
