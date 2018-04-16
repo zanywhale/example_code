@@ -81,7 +81,7 @@ If there is a value in the queue, this send thread could work.
 And send thread encrypt a padding.
 So this abnormal input also ecncrypt the padding!
 
----?code=assets/cmdi1.cpp&lang=c++&title=Command injection
+---?code=assets/cmdi.cpp&lang=c++&title=Command injection
 
 @[1-4](Send Thread)
 @[6-13](Encrypt)
