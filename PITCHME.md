@@ -25,7 +25,7 @@
 - Control-flow hijack(Command injection) |
 - Privacy breach |
 
-※ In a broad sense, command injection is control-flow hijack |
+- In a broad sense, command injection is control-flow hijack |
 
 ---
 
@@ -75,7 +75,7 @@
 
 ---?code=assets/privacy.cpp&lang=c++&title=pgpgmanaer.cpp
 
-@[7,8,17,18](There is a term)
+@[7,8,17,18,19](There is a term)
 
 ---
 
@@ -97,15 +97,17 @@
 
 ---
 
-# Appendix1
+## Appendix1
 
 - Logic error
 
+```
 A bug in a program that causes it to operate incorrectly,
 but not to terminate abnormally (or crash).
 
 -> Send thread is operate incorrectly,
    but not to terminate abnormally!
+```
 
 ---
 
