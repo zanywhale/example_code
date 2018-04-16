@@ -5,7 +5,7 @@ command.append(randomFile);
 command.append(" --decrypt ");
 command.append(randomFile+" 2>&1");
 pipe = popen(command.c_str(),"r");
-// Attacker can read in this term!
+### Attacker can read in this term! ###
 ifstream tmpFile2(randomFile.data());
 if(tmpFile2.is_open()) {
     tmpFile2.seekg(0, std::ios::end);
