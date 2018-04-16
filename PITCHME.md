@@ -118,7 +118,7 @@ and input attack payload in the padding.
 
 ## Get shell!
 
-<img src="images/shell.png" width=400px height=400px>
+<img src="images/shell.png" width=800px height=500px>
 
 Note:
 Than we can get the shell!
