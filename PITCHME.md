@@ -60,40 +60,32 @@ under the this protocol table, this is the code same with protocol.
 @[1-5](Key alive)
 @[6-10](Key die)
 @[11-22](Get my message)
-@[50-54](Not my message. So forwarding)
+@[50-55](Not my message. So forwarding)
+@[50-57](Abnormal input go to else condition)
 
 Note:
 This is real source code.
 this is key alive, key die, my message, not my message
-
----
-
-## Logic error
-
-![logic2](images/logic2.png)
-
-Note:
 in the not my message, work foolish.
 Because this condition get all abnormal input like this one.
 but exactly this program doesn't die when recv this abnormal input.
 Just push in to the queue.
 
----
+---?code=assets/sendthread.cpp&lang=c++&title=Logic error
 
-## Logic error
-
-![logic3](images/logic3.png)
+@[1-4](Send Thread)
+@[1-7](General input / Abnormal input)
 
 Note:
 If there is a value in the queue, this send thread could work.
 And send thread encrypt a padding.
 So this abnormal input also ecncrypt the padding!
 
----
+---?code=assets/cmdi1.cpp&lang=c++&title=Command injection
 
-## Command injection
-
-![cmdi1](images/cmdi1.png)
+@[1-4](Send Thread)
+@[6-13](Encrypt)
+@[9,13](Command injection)
 
 Note:
 But this Encrypt method has a command injection attack vector.
