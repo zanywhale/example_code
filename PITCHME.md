@@ -131,7 +131,7 @@ Next step is Privacy breach
 ---?code=assets/privacy.cpp&lang=c++&title=pgpgmanaer.cpp
 
 @[3,4](Make a file)
-@[17,18](Delete a file)
+@[17,19](Delete a file)
 @[7,8,17,18,19](There is a term)
 
 Note:
@@ -163,16 +163,15 @@ I am going to present Demo~
 
 ---
 
-# Appendix1
+## Appendix1
 
 - Logic error
 
+```
 A bug in a program that causes it to operate incorrectly,
 but not to terminate abnormally (or crash).
 
 -> Send thread is operate incorrectly,
    but not to terminate abnormally!
-
----
-
+```
 
