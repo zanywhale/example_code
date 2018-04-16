@@ -15,4 +15,5 @@ if(tmpFile2.is_open()) {
     tmpFile2.close();
 }
 command = "rm "+randomFile; 
+### Attacker can read in this term! ###
 pipe = popen(command.c_str(),"r");
