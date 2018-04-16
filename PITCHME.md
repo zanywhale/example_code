@@ -17,7 +17,7 @@ As you know, today subject is Vulerability and Exploitation with Onion Messegner
 
 <br>
 
-- Logic error : anybody can make a mistake sometimes |
+- Logic error : anybody can make a mistake |
 - Command injection : victim should not be aware |
 - Privacy breach : get a sensitive data |
 
@@ -118,7 +118,7 @@ and input attack payload in the padding.
 
 ## Get shell!
 
-![shell](images/shell.png)
+<img src="images/shell.png" width=400px height=400px>
 
 Note:
 Than we can get the shell!
