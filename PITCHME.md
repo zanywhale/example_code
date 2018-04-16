@@ -87,6 +87,7 @@ Just push in to the queue.
 Note:
 If there is a value in the queue, this send thread could work.
 And send thread encrypt a padding.
+So this abnormal input also ecncrypt the padding!
 
 ---
 
@@ -175,3 +176,15 @@ but not to terminate abnormally (or crash).
    but not to terminate abnormally!
 ```
 
+## Appendix2
+
+- README.md
+
+- There are detail explanation in README.md
+```
+취약점 발생 원리 요약
+취약점 발생 원리 상세 설명
+Installation
+Exploit usages
+Examples
+```
