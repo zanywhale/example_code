@@ -12,7 +12,6 @@
 ## Goals
 
 <br>
-<br>
 
 - Logic error : people all make mistakes sometimes |
 - Command injection : victim should not be aware |
@@ -22,22 +21,19 @@
 
 ## Scenario
 
-- Logic error ->
-- Control-flow hijack(Command injection) ->
-- Privacy breach
-- In a broad sense,
-  command injection is control-flow hijack
+- Logic error |
+- Control-flow hijack(Command injection) |
+- Privacy breach |
+- In a broad sense, |
+  command injection is control-flow hijack |
 
 ---
 
-## Logic error
+## Protocol
 
 ![logic1](images/logic1.png)
 
 ---
-
-## Logic error
-
 
 ---?code=assets/logic1.cpp&lang=c++&title=Recv thread source
 
@@ -70,13 +66,19 @@
 
 ![cmdi2](images/cmdi2.png) 
 
+<br>
+
+- "id":"1", "bullian":"192"...
+- "padding":"[COMMAND INJECTION!]"
+
 ---
 
 ## Privacy breach
 
 ---?code=assets/privacy.cpp&lang=c++&title=pgpgmanaer.cpp
 
-@[3,7,21](There is a term)
+@[3,7,18](There is a term)
+@[8](Attacker can read in this time!)
 
 ---
 
@@ -85,8 +87,6 @@
 ---
 
 ## Summary
-
-<br>
 
 - Logic error
 
@@ -97,4 +97,15 @@
 ---
 
 # Q & A
+
+---
+
+# Appendix1
+
+- Logic error
+
+A bug in a program that causes it to operate incorrectly,
+but not to terminate abnormally (or crash).
+
+---
 
