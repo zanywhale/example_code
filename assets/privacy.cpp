@@ -5,11 +5,7 @@ command.append(randomFile);
 command.append(" --decrypt ");
 command.append(randomFile+" 2>&1");
 pipe = popen(command.c_str(),"r");
-if( pipe == NULL) {
-    perror("popen failed\n");
-    return "";
-}
-fclose(pipe);
+// Attacker can read in this term!
 ifstream tmpFile2(randomFile.data());
 if(tmpFile2.is_open()) {
     tmpFile2.seekg(0, std::ios::end);
