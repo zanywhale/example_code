@@ -24,8 +24,8 @@
 - Logic error |
 - Control-flow hijack(Command injection) |
 - Privacy breach |
-- In a broad sense, |
-  command injection is control-flow hijack |
+
+※ In a broad sense, command injection is control-flow hijack |
 
 ---
 
@@ -33,13 +33,11 @@
 
 ![logic1](images/logic1.png)
 
----
-
 ---?code=assets/logic1.cpp&lang=c++&title=Recv thread source
 
 @[1-5](Key alive)
 @[6-10](Key die)
-@[11-49](Get my message)
+@[11-22](Get my message)
 @[50-54](Not my message. So forwarding)
 
 ---
@@ -68,8 +66,8 @@
 
 <br>
 
-- "id":"1", "bullian":"192"...
-- "padding":"[COMMAND INJECTION!]"
+- {"id":"1", "bullian":"192"...
+- "padding":"[COMMAND INJECTION!]"}
 
 ---
 
@@ -77,8 +75,7 @@
 
 ---?code=assets/privacy.cpp&lang=c++&title=pgpgmanaer.cpp
 
-@[3,7,18](There is a term)
-@[8](Attacker can read in this time!)
+@[7,8,17,18](There is a term)
 
 ---
 
@@ -106,6 +103,9 @@
 
 A bug in a program that causes it to operate incorrectly,
 but not to terminate abnormally (or crash).
+
+-> Send thread is operate incorrectly,
+   but not to terminate abnormally!
 
 ---
 
