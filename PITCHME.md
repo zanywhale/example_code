@@ -1,6 +1,8 @@
 ### Vulnerability and Exploitation
 ### (with Onion Messengers)
 
+<br>
+
 - TA: SeongIl Wi
 - DongHyeon Oh
 
@@ -8,22 +10,37 @@
 
 ## Goals
 
-- Logic error : people all make mistakes sometimes
-- Command injection : victim should not be aware
-- Privacy breach : get a sensitive data
+- Logic error : people all make mistakes sometimes |
+- Command injection : victim should not be aware |
+- Privacy breach : get a sensitive data |
 
 ---
 
 ## Scenario
 
-- Logic error -> Command injection -> Privacy breach
-- In a broad sense, command injection is control flow hijack
+- Logic error ->
+- Control-flow hijack(Command injection) ->
+- Privacy breach
+- In a broad sense,
+  command injection is control flow hijack
 
 ---
 
 ## Logic error
 
 ![logic1](images/logic1.png)
+
+---
+
+## Logic error
+
+
+---?code=assets/logic1.cpp&lang=c++&title=Recv thread source
+
+@[1,5](Key alive)
+@[6,10](Key die)
+@[11,49](Get my message)
+@[50,54](Not my message. So forwarding)
 
 ---
 
