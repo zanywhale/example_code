@@ -5,7 +5,7 @@
 
 ---
 
-# Goals
+## Goals
 
 - Logic error : people all make mistakes sometimes
 - Command injection : victim should not be aware
@@ -13,54 +13,54 @@
 
 ---
 
-# Scenario
+## Scenario
 
 - Logic error -> Command injection -> Privacy breach
 - In a broad sense, command injection is control flow hijack
 
 ---
 
-# Logic error
+## Logic error
 
 ![logic1](images/logic1.png)
 
 ---
 
-# Logic error
+## Logic error
 
 ![logic2](images/logic2.png)
 
 ---
 
-# Logic error
+## Logic error
 
 ![logic3](images/logic3.png)
 
 ---
 
-# Command injection
+## Command injection
 
 ![cmdi1](images/cmdi1.png)
 
 ---
 
-# Command injection
+## Command injection
 
 ![cmdi2](images/cmdi2.png) 
 
 ---
 
-# Privacy breach
+## Privacy breach
 
 ![pb1](images/pb1.png)
 
 ---
 
-# Demo
+## Demo
 
 ---
 
-# Summary
+## Summary
 
 ![summary](images/summary.png)
 
