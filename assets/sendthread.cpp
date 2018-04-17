@@ -4,4 +4,4 @@ if( tmp.at("id").get<std::string>().compare("1") == 0){
 }
 
 General : id(1) && bullian(0 or 1)
-Abnormal: id(1) && bullain(???)
+Abnormal: id(1) && bullian(???)
