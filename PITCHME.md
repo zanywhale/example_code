@@ -86,8 +86,8 @@ Just push in to the queue.
 
 ---?code=assets/sendthread.cpp&lang=c++&title=Logic error
 
-@[1-15](Send Thread)
-@[1-4,16-17](General input / Abnormal input)
+@[1-12](Send Thread)
+@[1-4,13-14](General input / Abnormal input)
 
 Note:
 If there is a value in the queue, this send thread could work.
