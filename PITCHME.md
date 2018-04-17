@@ -23,9 +23,10 @@ As you know, today subject is Vulerability and Exploitation with Onion Messegner
 
 Note:
 In this activity, I determine three goals.
+
 First of all, anybody can make a mistake sometimes in the coding.
-So the logic error seems to a natural mistake.
-Second, if victim was attacked by attacker, he should not be aware.
+So I make the logic error seems to a natural mistake.
+Second, if a victim was attacked by attacker, he should not be aware.
 The last thing is Get a sensitive data!
 
 ---
@@ -88,7 +89,7 @@ So this abnormal input also ecncrypt the padding!
 @[9,13](Command injection)
 
 Note:
-But this Encrypt method has a command injection attack vector.
+And this Encrypt method has a command injection attack vector.
 So we can put together this Logic error and command injection.
 
 ---
