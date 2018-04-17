@@ -72,13 +72,13 @@ under the this protocol table, this is the code same with protocol.
 @[50-57](Abnormal input go to else condition)
 
 Note:
-This is real source code.
+Let's see the real source code.
 
 this is key alive, key die, my message, not my message
 
-in the not my message, work foolish.
+in the not my message, the key point at onion protocol. But work foolish.
 
-Because this condition get all abnormal input like this one.
+Because this condition gets all abnormal input like this one.
 
 but exactly this program doesn't die when recv this abnormal input.
 
@@ -92,7 +92,7 @@ Just push in to the queue.
 Note:
 If there is a value in the queue, this send thread could work.
 
-And send thread encrypt a padding.
+And send thread encrypt a padding. And just send it!
 
 So this abnormal input also ecncrypt the padding!
 
