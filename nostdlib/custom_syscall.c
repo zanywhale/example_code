@@ -87,10 +87,10 @@ long sys_open(const char *path, unsigned long flags, long mode)
         __asm__ volatile(
                         "mov %0, %%rdi\n"
                         "mov %1, %%rsi\n"
-			"mov %2, %%rdx\n"
+                        "mov %2, %%rdx\n"
                         "mov $2, %%rax\n"
                         "syscall" : : "g"(path), "g"(flags), "g"(mode));
-        asm ("mov %%rax, %0" : "=r"(ret));              
+        asm ("mov %%rax, %0" : "=r"(ret));
         
         return ret;
 }
@@ -145,12 +145,12 @@ int sys_fstat(long fd, void *buf)
 
 int sys_unlink(const char *path)
 {
-	   long ret;
+      long ret;
         __asm__ volatile(
-                        "mov %0, %%rdi\n"
-			"mov $87, %%rax\n"		
-			"syscall" ::"g"(path));
-	asm("mov %%rax, %0" : "=r"(ret));
+      "mov %0, %%rdi\n"
+      "mov $87, %%rax\n"
+      "syscall" ::"g"(path));
+  asm("mov %%rax, %0" : "=r"(ret));
         return (int)ret;
 }
 
